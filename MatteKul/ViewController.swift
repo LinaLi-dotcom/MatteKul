@@ -113,9 +113,11 @@ class ViewController: UIViewController {
             
             theTextView.text = quiz[questionNumber].question
             theProgressView.progress = Float(questionNumber + 1) / Float(quiz.count)
-        
-        
        }
-}
+    }
+    
+    
+    
+
 
 
