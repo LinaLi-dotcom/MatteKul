@@ -96,8 +96,10 @@ class ViewController: UIViewController {
         
         if  theUserAnswer == theActualAnswer{
             theAnswerLabel.text = "Your answer is right!"
+            theAnswerLabel.backgroundColor = UIColor.green
         } else{
             theAnswerLabel.text = "Your answer is wrong!"
+            theAnswerLabel.backgroundColor = UIColor.red
         }
         
         if questionNumber + 1 < quiz.count{
